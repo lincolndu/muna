@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		body{
+			width: 100%;
+			height: 100vh;
+			position: relative;
+			background: #eee;
+		}
+
+		.abul, .abul::before, .abul::after{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			top: 0;
+			left: 0;
+		}
+
+		.abul{		
+			margin: auto;
+			/*background: #ddd;*/
+			width: 200px;
+			height: 200px;
+			background: url("http://blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png") no-repeat 50%/70% ;
+			box-shadow: inset 0 0 7px 2px green;	
+					
+		}
+		.abul::before, .abul::after{
+			content: '';
+			margin: -10px;
+			/*background: red;*/
+			/*box-shadow: 0 0 0 2px green;*/
+			border: 2px solid green;
+			animation: robiul 8s linear infinite;
+		}
+		.abul::after{
+			animation-delay: -4s;
+		}
+
+
+		@keyframes robiul{
+			0%, 100%{
+				clip:rect(0, 220px, 10px, 0);
+				/*background-color: #999;*/
+				/*border: 2px solid red;*/
+			}
+			25%{
+				clip: rect(0, 2px, 220px, 0);
+			}
+			50%{
+				clip: rect(218px, 220px, 220px, 0);
+			}
+			75%{
+				clip: rect(0, 220px, 220px,218px);
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="abul"></div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* Ticker Styling */
+.ticker-wrapper.has-js {
+	margin: 15px 0;
+	/*margin-top: 10px;	*/
+	padding: 0px 20px;
+	width: 780px;
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+.ticker {
+	width: 710px;
+	height: 18px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.ticker-title {
+	padding-top: 9px;
+	color: #990000;
+	text-transform: uppercase;
+}
+.ticker-content {
+	margin: 0px;
+	padding-top: 0px;
+	position: absolute;
+	color: #fff;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 18px;
+}
+.ticker-content:focus {
+	none;
+}
+.ticker-content a {
+	text-decoration: none;	
+	color: #fff;
+	line-height: 18px;
+}
+.ticker-content a:hover {
+	text-decoration: underline;	
+	color: #fff;
+}
+.ticker-swipe {
+	padding-top: 9px;
+	position: absolute;
+	top: 0px;
+	display: block;
+	width: 800px;
+	height: 18px; 
+}
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0px 0px 45px; 
+	color: #F8F0DB;
+}
+.left .ticker-content, .left .ticker-title, .left .ticker {
+    float: left;
+}
+.right .ticker-content, .right .ticker-title, .right .ticker {
+    float: right;
+}

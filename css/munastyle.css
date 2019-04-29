@@ -1,0 +1,95 @@
+
+.top-bar{
+	padding-top: 20px;
+}
+.logo{
+	width: 190px;
+	margin:0 auto;
+	padding-top: 60px;
+}
+.logo img{
+	padding-bottom: 20px;
+	/*height: 100px;*/
+}
+
+
+/*contacts_menu area style*/
+.top-contact-info{float: right;}
+.contacts_menu{
+	list-style: none;
+	text-transform:uppercase;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.contacts_menu li{float: left;margin-right: 20px;}
+/*.contacts_menu li:last-child{padding-right: 10px;}*/
+.contacts_menu .contact{}
+.contacts_menu .donate, .contacts_menu .horizons{
+	color:#fff;
+	background: #008ed0;
+	padding-left: 15px;
+    padding-right: 15px;
+	border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -o-border-radius: 16px;
+    -ms-border-radius: 16px;
+    line-height: 30px;
+}
+.contacts_menu .horizons{}
+.contacts_menu .donate a, .contacts_menu .horizons a{color: #fff;}
+
+/*Main menu style*/
+.mainMenu{
+	margin: 50px 0px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mainMenu .upcoming{
+	margin-top: -10px;
+}
+
+/*top style */
+.section-top-bar{
+	overflow: hidden;
+}
+.bg-golden {
+    background: #b9934c;
+}
+.empty-space {
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    float: none;
+}
+.greeting{
+    
+}
+.db {
+    display: block;
+}
+.greeting-container {
+    margin: 0 auto;
+    width: 192px;
+}
+.greeting-before, .greeting-after {
+    height: 24px;
+    margin-top: -1px;
+}
+.floatleft {
+    float: left;
+}
+.greeting .text-bsm {
+    height: 30px;
+    padding: 0 3px 3px;
+    background: #b9934c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -1px;
+}
+
+
+/*isna style*/
+

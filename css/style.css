@@ -1,0 +1,895 @@
+/*--------------------------------------------------------------------------------------
+Theme Name: Vingo MArketing
+Theme URI: 
+Author URI: 
+Description: 100% Responsive, Highly Customizable, SEO Friendly Restaurant HTML template using Twitter Bootstrap Latest, Search Engine Friendly.
+Author:
+Version: 1.0
+----------------------------------------------------------------------------------------
+   1. BASE CSS
+    2. TOP AREA
+        2.1 MAINMENU AREA
+        2.2 SLIDER AREA
+        2.3 SEARCH FORM AREA
+    3. ABOUT AREA
+    4. PROMOTIONS AREA
+    5. MENUS AREA
+    6. EVENT AREA
+    7. TEAM AREA
+    8. BLOG AREA
+    9. INSTAGRAM FEED AREA
+    10. FOOTER AREA
+    11. SCROLL TO TOP
+
+
+----------------------------------------------------------------------------------------*/
+
+
+/*--------------------
+   1. BASE CSS
+----------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Monstrette:400,400i,600,600i,700,700i,800,900|Lato:400,400i,600,600i,700,700i,800');
+
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #212324;
+}
+
+a:hover {
+    color: #55ACEE;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+a:focus,
+a:hover {
+    outline: 0 solid;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	font-family: 'Monstrette', sans-serif;
+	color: #232323;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    color: #555555;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 1.7em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.navbar-toggle {
+    border: 2px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff none repeat scroll 0 0;
+}
+
+.is-sticky .navbar-header .collapse,
+.is-sticky .navbar-toggle {
+    border: 2px solid #1a1a1a;
+}
+
+.is-sticky .navbar-toggle .icon-bar {
+    background: #1a1a1a none repeat scroll 0 0;
+}
+
+
+
+/* ------------------------------
+	SECTION AREA TITLE
+---------------------------------*/
+
+.section-area-title {
+    margin-bottom: 60px;
+	width: 70%;
+}
+
+.section-area-title h2 {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+	text-transform: uppercase;
+	text-transform: Capitalize;
+	margin-bottom: 15px;
+	color: #232323;
+	font-weight:400;
+}
+
+.section-area-title p{
+	color: #777;
+}
+
+.area-title h3 {
+    color: #212324;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section-area-title h2 span{
+	font-weight:900;
+	text-transform: uppercase;
+}
+
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
+
+/*--------------------------
+   BUtton STYLES
+---------------------------*/
+.btn{
+	border: 1px solid;
+    color: #fff;
+	font-weight: 700;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 15px;
+    padding: 13px 30px;
+	border-radius: 0px;
+	line-height: 26px;
+	 -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-feature,.btn-white:hover,.btn-grey:hover ,.btn-black:hover{
+	background: #55ACEE;
+	color: #fff;
+	border-color: #55ACEE;
+}
+
+.btn-white{
+	background: #fff;
+	color: #000;
+	border-color: #fff;
+}
+.btn-grey{
+	border-color: #fff;
+	background: transparent;
+	color: #fff;
+}
+
+.btn-black{
+	background: #232323;
+	border-color: #232323;
+	color: #fff;
+}
+
+
+
+/*--------------------------
+    2. TOP AREA
+---------------------------*/
+
+.top-area {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.top-social {
+    float: left;
+}
+
+.top-social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-social ul li {
+    display: inline;
+}
+
+.top-social ul li a {
+    display: inline-block;
+    font-size: 14px;
+    height: 38px;
+    margin: 0;
+    padding: 6px;
+    text-align: center;
+    width: 38px;
+    border: 2px solid #208bcf;
+    border-radius: 34px;
+    color: #208bcf;
+}
+
+.top-social ul li a:hover {
+    background: #fff;
+    color: #55ACEE;
+}
+
+.top-social ul li:last-child a {
+    margin-right: -5px;
+}
+
+
+.top-bar {
+	background: rgba(255,255,255,.96);
+}
+
+.top-contact-info  {
+    text-transform: capitalize;
+}
+
+.top-contact-info  a {
+    letter-spacing: 1px;
+}
+
+.top-contact-info  p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.top-contact-info  i {
+    margin-right: 10px;
+	color:#55ACEE;
+}
+
+
+/*---------------------------------
+    2.1 MAINMENU AREA
+-----------------------------------*/
+
+.mainmenu-area {
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9999;
+}
+
+.is-sticky .mainmenu-area {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    z-index: 99999;
+}
+
+.navbar-header {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: 8px;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.navbar-brand.white {
+    display: block;
+}
+
+.is-sticky .navbar-brand.white {
+    display: none;
+}
+
+.is-sticky .navbar-brand {
+    display: block;
+}
+
+.navbar {
+    border-bottom: 0 none;
+    border-top: 0 none;
+    margin-bottom: 0;
+}
+
+ul#nav {
+    float: right;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+ul#nav li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+/*ul#nav li:hover a,
+ul#nav li.active a {
+    color: #55ACEE;
+}*/
+
+ul#nav li:hover ul {
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+ul#nav ul {
+    background: #1a1a1a none repeat scroll 0 0;
+    left: 0;
+    list-style: outside none none;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 180px;
+}
+
+ul#nav li ul li {
+    display: block;
+    border-bottom: 1px dashed #363636;
+}
+
+ul#nav li ul li:last-child {
+    border-bottom: 0 none;
+}
+
+.is-sticky ul#nav li ul li:hover a,
+ul#nav li ul li a,
+ul#nav ul li a {
+    color: #fff !important;
+    display: block;
+    padding: 7px 15px;
+}
+
+ul#nav ul li:hover a {
+    background: #55ACEE none repeat scroll 0 0;
+    color: #fff;
+}
+
+.is-sticky ul#nav li ul li a {
+    padding: 7px 15px;
+}
+
+
+.is-sticky ul#nav li a {
+    padding: 30px 20px;
+    color: #1a1a1a;
+}
+
+.is-sticky ul#nav li.active a,
+.is-sticky ul#nav li:hover a {
+    color: #55ACEE;
+}
+
+.is-sticky .mainmenu-area {
+    background: #ffffff none repeat scroll 0 0;
+}
+
+.is-sticky .navbar-header {
+    margin-top: -3px;
+}
+
+
+/*-----------------------------------
+    2.2 SLIDER AREA
+-------------------------------------*/
+
+.header-top-area {
+    position: relative;
+    width: 100%;
+    /*z-index: 999;*/
+    background: #58aae8;
+    text-transform: uppercase;
+}
+
+.slider-area {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-weight: 900;
+    color: #fff;
+}
+
+.slider-area h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+	font-weight: 400;
+	color: #fff;
+}
+
+.slider-area h1 span {
+	font-weight: 900;
+}
+
+.slider-area p {
+    width: 50%;
+	margin: 0 auto 20px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.slider-area h2{
+	font-family: "Lato",sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #fff;
+} 
+.slider-area h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.slider-area a:hover {
+    color: #232323;
+    background: #fff none repeat scroll 0 0;
+    border-color:#fff ;
+}
+
+
+.pogoSlider {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.pogoSlider-slide {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+    position: absolute;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 5%
+}
+
+.pogoSlider-slide:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+/*----------------------------
+    2. ABOUT AREA
+------------------------------*/
+
+.section-seo-about{
+	padding-bottom: 0px;
+}
+.single-seo-about h4{
+	margin-top: 20px;
+}
+.line{
+	width: 40px;
+	height: 3px;
+	background: #55ACEE;
+}
+
+
+/*-----------------------------
+    3. FEATURE AREA
+-------------------------------*/
+
+.section-seo-feature .section-area-title {
+	background: #f8f8f8;
+	padding: 40px 30px;
+}
+.seo-features li{
+	margin-bottom: 40px;
+}
+.seo-features li i{
+	font-size: 40px;
+	line-height: 40px;
+	float: left;
+	margin-right: 30px;
+	color: #444;
+	background:transparent ;
+	width: 80px;
+	text-align: center;
+	height: 80px;
+	padding-top:15px;
+	border: 2px solid#eee;
+	border-radius: 100%;
+	
+}
+.seo-features li h4{
+	color: #333;
+	font-weight: 900;
+	padding-top: 15px;
+	margin-bottom: 10px;
+}
+
+.seo-features li h4 ,.seo-features li i{
+	-webkit-transition:all .3s ease 0s ;
+	-o-transition:all .3s ease 0s ;
+	transition: all .3s ease 0s;
+}
+.seo-features li:hover i,.seo-features li:first-child i{
+	background:#55ACEE;
+	color: #fff;
+}
+
+.seo-features li:hover h4,.seo-features li:first-child h4{
+	color: #55ACEE;
+}
+.section-seo-feature{
+	padding-bottom: 0px;
+}
+
+
+.seo-features ul{
+	padding-left: 30px;
+}
+
+
+/*------------------------------
+    4. TESTIMONIAL AREA
+-------------------------------*/
+
+.section-seo-testimonial{
+	background: url("../img/marketing/slider/paralaxbg.jpg") 40% 40%;
+	-webkit-background-size: cover;
+	background-size: cover ;
+}
+.section-seo-testimonial .item .seo-test-box{
+	text-align: center;
+	width: 65%;
+	margin: 0 auto;
+	color: #fff;
+}
+.section-seo-testimonial .item .seo-test-box p{
+	margin: 25px 0px;
+	color: #eaeaea;
+}
+.section-seo-testimonial .item .seo-test-box img{
+	width: 10%;
+	margin: 0 auto;
+}
+
+.section-seo-testimonial .item .seo-test-box h4{
+	color: #fff;
+}
+.section-seo-testimonial .item .seo-test-box h4 span{
+	font-size: 12px;
+	color: #eee;
+}
+.testimonial-img-block{
+	padding: 0px;
+}
+.testimonial-img-block img{
+	width: 100%;
+	height: 100%;
+	min-height: 300px;
+}
+
+
+
+
+/*-----------------------------
+    5. SERVICES AREA
+-------------------------------*/
+
+.section-seo-service{
+	background: #f9f9f9;
+}
+.area-center{
+	margin: 0 auto 60px;
+}
+
+.h40{
+	height: 40px;
+}
+.single-seo-service {
+	padding:25px 12px;
+	border: 1px dashed#eee;
+	-webkit-transition:.4s ease 0s;
+	-o-transition:.4s ease 0s ;
+	transition: .4s ease 0s;
+	background: #fff;
+}
+.single-seo-service img{
+	width: 100px;
+	margin: 0 auto 15px;
+}
+.single-seo-service h4{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.single-seo-service:hover h4{
+	color: #55ACEE;
+}
+.single-seo-service:hover{
+	border-color: #55ACEE;
+}
+
+
+/*------------------------------
+    6. PRICING AREA
+-------------------------------*/
+
+.p1 li:nth-child(4),.p1 li:nth-child(5) , .p1 li:nth-child(6)  {
+	text-decoration: line-through;
+}
+.single-seo-pricing{
+	border: 1px solid#eee;
+	padding: 30px 20px;
+}
+.single-seo-pricing a{
+	margin: 0 auto;
+}
+.pricing-head{
+	text-align: center;
+	background:  #D7E3ED;
+	padding: 30px 0px;
+}
+.pricing-head h4{
+	text-transform: capitalize;
+	margin-top: 10px;
+}
+.pricing-head i{
+	font-size: 100px;
+	color: #232323;
+	line-height: 100px;
+}
+
+.single-seo-pricing ul{
+	margin: 20px 0px;
+}
+.single-seo-pricing li{
+	padding: 15px 30px;
+}
+.single-seo-pricing li i{
+	margin-right: 15px;
+	color:  #55ACEE;
+	opacity: .60;
+}
+
+
+/*------------------------------
+    7. CLIENT AREA
+-------------------------------*/
+
+.section-seo-client{
+	background: url("../img/marketing/bg/home_projects.jpg") 20% 20%;
+	-webkit-background-size: cover;
+	background-size:cover ;
+}
+.client-img{
+	padding: 20px;
+	background: #f8f8f8;
+	-webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.h20{
+	height: 20px;
+}
+
+
+/*------------------------------
+    8. CONTACT AREA
+-------------------------------*/
+
+
+.section-seo-contact{
+}
+.contact-form{
+	padding: 40px 20px;
+	border: 1px dashed #e8e8e8;
+}
+.form-control {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-weight: 400;
+	-webkit-transition:  all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	font-size: 14px;
+	border: 0px;
+	border-bottom: 1px solid#e8e8e8;
+	height: 50px;
+	border-radius: 0px;
+}
+
+.form-control:focus {
+	border-color: #55ACEE;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: #eaeaea;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #9e9e9e;
+}
+
+.form-control::-moz-placeholder {
+	color: #9e9e9e;
+	opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #9e9e9e;
+}
+
+
+
+
+/*------------------------------
+    10. FOOTER AREA
+-------------------------------*/
+
+.footer-area {
+    background: #191a1b none repeat scroll 0 0;
+    color: #cacaca;
+    position: relative;
+}
+
+.footer-widget h4{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	border-bottom: 1px solid#2B2C2D;
+	color: #fff;
+}
+
+.footer-area a {
+    color: #55ACEE;
+}
+
+.footer-area a:hover {
+    color: #fff;
+}
+
+.footer-logo,
+.footer-address {
+    margin-bottom: 20px;
+}
+
+.footer-social-bookmark ul,
+.footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social-bookmark ul li,
+.footer-menu ul li {
+    display: inline;
+}
+
+.footer-social-bookmark ul li a {
+    display: inline-block;
+    font-size: 25px;
+    width: 50px;
+    color: #c4c3c3;
+}
+
+.footer-social-bookmark a:hover {
+    color: #55ACEE;
+}
+
+.footer-widget ul li h5{
+	color: #e8e8e8;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.footer-widget ul li{
+	margin-bottom: 25px;
+}
+
+.footer-area .section-padding{
+	padding-bottom: 70px;
+}
+
+
+/* ========================
+  	FOOTER BOTOTM
+===========================*/
+
+#footer-btm-area{
+	background: #D7E3ED;
+}
+.footer-menu ul {
+    text-align: inherit;
+}
+
+.footer-menu ul li a {
+    display: inline-block;
+    padding: 7px 10px 7px 0;
+}
+
+.footer-menu {
+    padding: 30px 0;
+	text-align: right;
+	font-size: 16px;
+}
+
+.footer-copyright {
+    letter-spacing: 1px;
+    padding: 40px 0;
+   
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+	font-size: 16px;
+}
